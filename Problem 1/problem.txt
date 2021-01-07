@@ -1,0 +1,8 @@
+Write, run and test a MIPS program to implement the following C code segment. 
+
+if (g > h)
+	g = g + h;
+else if (g < h)
+	g = g − h;
+else
+	g = g * h;
