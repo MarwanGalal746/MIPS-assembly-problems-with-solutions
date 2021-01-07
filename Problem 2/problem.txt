@@ -1,0 +1,2 @@
+Develop an algorithm, test it and then implement it in MIPS assembly that takes an array of
+characters, then reverses it in memory and prints the reversed version.

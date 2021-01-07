@@ -1,0 +1,3 @@
+Design an algorithm for testing whether a given string is a palindrome. (Recall that a
+palindrome is a word that is the same forward and backward. For example, the words “wow”
+and “racecar” are palindromes.) Implement your algorithm using MIPS assembly code.

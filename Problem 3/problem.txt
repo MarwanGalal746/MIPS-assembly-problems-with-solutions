@@ -1,0 +1,5 @@
+Write a MIPS program to execute the following nested C loop.
+
+for(i = 0; i < a; i++)
+	for(j = i; j >= 0; j--)
+		C[i] *= j;

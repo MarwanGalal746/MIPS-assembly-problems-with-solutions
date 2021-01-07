@@ -1,0 +1,16 @@
+Translate the following C program to MIPS assembly.
+
+int main() {
+	...
+	t1 = fact(8);
+	t2 = fact(3);
+	t3 = t1 + t2;
+	...
+}
+
+int fact(int n) {
+	int i, result = 1;
+	for (i = n; i > 1; i--)
+		result = result * i;
+	return result;
+}
