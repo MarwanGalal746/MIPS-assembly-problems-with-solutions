@@ -3,7 +3,7 @@ arr: .space 1000
 .globl main
 .text
 main:
-	# taking the arr from the user
+	# taking arr of char from user from the user
 	li $v0, 8
 	la $a0, arr
 	li $a1, 1000
@@ -37,7 +37,7 @@ main:
     	
     	#loop to get length of the array
 	length:
-	   #;oad a byte(cchar) in $t0
+	   #load a byte(cchar) in $t0
 	   lb $t0, 0($a0)
 	   #increase the pointer by 1
 	   addi $a0, $a0, 1
